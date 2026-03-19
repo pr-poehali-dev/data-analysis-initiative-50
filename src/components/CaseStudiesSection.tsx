@@ -3,31 +3,31 @@ import { motion } from "framer-motion"
 export function CaseStudiesSection() {
   const caseStudies = [
     {
-      client: "Stellar Analytics",
-      project: "Редизайн лендинга SaaS",
-      metric: "Рост конверсий на 127%",
-      description: "Полный редизайн главного лендинга продукта с A/B-тестированием и оптимизацией конверсий.",
+      client: "Внеурочная деятельность",
+      project: "Кружок «Юный исследователь»",
+      metric: "18 призёров олимпиад",
+      description: "Наши ученики ежегодно побеждают на городских и региональных олимпиадах по математике и окружающему миру.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Nova Industries",
-      project: "White-label платформа",
-      metric: "Онбординг в 3 раза быстрее",
-      description: "Создали масштабируемое white-label решение для обслуживания 50+ клиентов одновременно.",
+      client: "Творческое направление",
+      project: "Студия «Акварель»",
+      metric: "12 выставок в год",
+      description: "Детские работы выставляются в городских галереях, а выпускники поступают в художественные школы.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Quantum Dynamics",
-      project: "Оптимизация e-commerce",
-      metric: "Рост выручки на 85%",
-      description: "Оптимизировали checkout и внедрили конверсионные паттерны дизайна по всей платформе.",
+      client: "Спортивная жизнь",
+      project: "Секция «Движение»",
+      metric: "3 место по городу",
+      description: "Команда школы заняла 3 место в городской спартакиаде среди начальных классов в 2024 году.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Alpine Ventures",
-      project: "Перезапуск сайта агентства",
-      metric: "200+ лидов в месяц",
-      description: "Стратегический редизайн для лидогенерации с интеграцией CRM и автоматизацией.",
+      client: "Цифровая грамотность",
+      project: "Программа «Первый код»",
+      metric: "100% охват учеников",
+      description: "С 1 класса дети знакомятся с основами логики и программирования в игровой форме.",
       image: "/placeholder.svg?height=400&width=600",
     },
   ]
@@ -43,7 +43,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Кейсы
+            Наши достижения
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Реальные результаты агентств, с которыми мы работали для роста и конверсий.
+            Результаты, которыми мы гордимся — в учёбе, спорте и творчестве.
           </motion.p>
         </div>
 
